@@ -23,3 +23,7 @@ socialIcons = [
 [params.twitter]
 	enable = false 
 	username = "mansoorbarri"
+	
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
