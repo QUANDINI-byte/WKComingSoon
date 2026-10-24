@@ -113,10 +113,10 @@ jobs:
           restore-keys: hugo-
 
       - name: Build
-        working-directory: ./WKComingSoon
         run: |
           echo "Building the project..."
           hugo build \
+            --source ./WKComingSoon \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
