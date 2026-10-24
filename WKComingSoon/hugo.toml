@@ -1,0 +1,22 @@
+baseURL = 'https://WitchKult.com/'
+languageCode = 'en-us'
+title = 'WitchKult'
+theme = 'coming-soon'
+
+[params]
+    title = " " 
+    description = "IT IS BEHIND YOU..."
+    favicon = ""
+    message = "WitchKult" 
+    release = "January 1, 2026"
+    background = "" 
+	lowertext = "COMING SOON"
+
+socialIcons = [
+    {name = "email", url = "coven@witchkult.com"},   
+    {name = "twitter", url = "https://x.com/WitchKultGames"}
+] 
+
+[params.twitter]
+	enable = false 
+	username = "WitchKultGames"
